@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings load_method="CUSTOM_LOADER" />
+      <phpunit_by_interpreter interpreter_id="e98c4c1e-c1c8-4f54-8ad3-2fa07c046fc8" load_method="CUSTOM_LOADER" custom_loader_path="/vagrant/vendor/autoload.php" phpunit_phar_path="" />
+    </phpunit_settings>
+  </component>
+</project>
