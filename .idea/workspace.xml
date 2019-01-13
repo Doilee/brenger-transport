@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="783827cf-4171-4e9e-9da4-46e84814af6b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/AnswerController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/AnswerController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,7 +23,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnswerController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AnswerController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AnswerController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-664">
@@ -39,12 +35,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="505">
-                <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+              <first_editor relative-caret-position="585">
+                <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -81,9 +77,9 @@
       <list>
         <option value="$PROJECT_DIR$/app/Http/Controllers/Controller.php" />
         <option value="$PROJECT_DIR$/storage/logs/laravel-2019-01-13.log" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/AnswerController.php" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -246,12 +242,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547410822369</updated>
-      <workItem from="1547410823698" duration="4262000" />
+      <workItem from="1547410823698" duration="4319000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4262000" />
+    <option name="totallyTimeSpent" value="4319000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
@@ -313,17 +309,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="505">
-            <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -339,6 +324,17 @@
           <folding>
             <element signature="e#40#64#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="585">
+            <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
