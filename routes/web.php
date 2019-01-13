@@ -18,3 +18,4 @@ Route::get('/', function () {
 Route::get('/one', 'AnswerController@one');
 Route::get('/two', 'AnswerController@two');
 Route::get('/three', 'AnswerController@three');
+Route::get('/bonus', 'AnswerController@bonus');

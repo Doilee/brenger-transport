@@ -63,4 +63,27 @@ class AnswerController extends Controller
             'count' => array_last($result)
         ];
     }
+
+    public function bonus()
+    {
+        $theDate = $this->three()['date'];
+
+        $result = $this->jobs->map(function($job) use ($theDate) {
+            $job['pickup_date'] = date('Y-m-d', $job['pickup'] / 1000);
+            $job['delivery_date'] = date('Y-m-d', $job['delivery'] / 1000);
+            $job['difference'] = $job['delivery'] - $job['pickup'];
+
+            $period = CarbonPeriod::create($job['pickup_date'], $job['delivery_date']);
+
+            foreach($period as $date) {
+                $job['transit_dates'][] = $date->toDateString();
+            }
+
+            $job['in_transit_on_the_date'] = in_array($theDate, $job['transit_dates']);
+
+            return $job;
+        })->where('in_transit_on_the_date', true)->sortByDesc('difference')->first();
+
+        return $result;
+    }
 }
